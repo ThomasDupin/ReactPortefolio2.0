@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
-    <div className='contact'>
-        contact
+    <div className='contact' id="contact">
+        ss
     </div>
   )
 }

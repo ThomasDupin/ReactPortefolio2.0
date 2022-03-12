@@ -29,7 +29,7 @@ export default function Contact() {
           <form ref={form} onSubmit={handleSubmit} >
              <input type="name" name="name" placeholder="Name"/>
              <input type="subject" name="subject" placeholder="Subject"/>
-             <input type="email" name="email" placeholder="Email"/>
+             <input type="email" required name="email" placeholder="Email"/>
              <textarea name ="message" placeholder="Message"></textarea>
              <button type="submit">send</button>
              {message && <span>Thanks, I'll reply ASAP :)</span>}

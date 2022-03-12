@@ -1,3 +1,5 @@
+@import "../global.scss";
+
 .works {
     background-color: crimson;
     display: flex;
@@ -77,7 +79,27 @@
                             font-size: 13px;
                             overflow: hidden;
                         }
-                        span{
+                        a{
+
+
+                        }
+                        .link{
+                            .link{
+                                text-decoration: none;
+                                color: $mainColor;
+                                transition: all 0.2 ease-in;
+                                cursor: pointer;
+                                &:hover{
+                                    font-weight: bold;
+
+                                }
+                            }
+                            .hidden{
+                               
+                                display: none;
+                            }
+                        }
+                        .title{
                             font-size: 12px;
                             font-weight: 600;
                             text-decoration: underline;

@@ -6,7 +6,9 @@ export default function Works() {
     {
       id: "1",
       icon: "./assets/mobile.png",
-      title: "Web Design",
+      title: "Aalborg Internship",
+      dl:"./assets/RecAalborg.pdf",
+      attr: "link",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       img:
@@ -15,7 +17,9 @@ export default function Works() {
     {
       id: "2",
       icon: "./assets/globe.png",
-      title: "Mobile Application",
+      title: "BME Internship",
+      dl:"./assets/RecBME.pdf",
+      attr: "link",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
@@ -24,13 +28,15 @@ export default function Works() {
     {
       id: "3",
       icon: "./assets/writing.png",
-      title: "Branding",
+      title: "Gertrude Internship",
+      attr: "hidden",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
         "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
     },
   ];
+
 
   const handleClick = (way) => {
     way === "left"
@@ -55,7 +61,8 @@ export default function Works() {
                     <p>
                      {d.desc}
                     </p>
-                    <span>Projects</span>
+                    <span className='title'>Projects</span>
+                    <span className='link'> <a href={d.dl} target="blank" className={d.attr} > Download the recommandation letters</a></span>
                   </div>
                 </div>
                 <div className="right">  
@@ -73,6 +80,7 @@ export default function Works() {
         className="arrow left"
         alt=""
         onClick={() => handleClick("left")}
+        
       />
       <img
         src="assets/arrow.png"

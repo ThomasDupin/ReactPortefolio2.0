@@ -11,9 +11,7 @@ export const featuredPortfolio = [
       tec:
       "Unity 3D, C#, Github",
       git:
-      "https://github.com/ThomasDupin/Infinity/tree/Feat/quest",
-      drive:
-      'Download the game : https://drive.google.com/file/d/11Xp1C6RAXYxd7iKHOR4chbcHKNZxclyU/view?usp=sharing'
+      "https://github.com/ThomasDupin/Infinity/tree/Feat/quest"
     },
     {
       id: 2,
@@ -141,8 +139,7 @@ export const featuredPortfolio = [
       "Unity 3D, C#, Github",
       git:
       "https://github.com/ThomasDupin/Infinity/tree/Feat/quest",
-      drive:
-      'Download the game : https://drive.google.com/file/d/11Xp1C6RAXYxd7iKHOR4chbcHKNZxclyU/view?usp=sharing'
+    
     },
     {
       id: 2,

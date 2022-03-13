@@ -22,10 +22,11 @@
             display: flex;
             align-items: center;
             .logo {
+                transition: all 1s ease;
                 font-size: 40px;
                 font-weight: 700;
                 text-decoration: none;
-                color: inherit;
+                color: $mainColor;
                 margin-right: 40px;
                 @include mobile{
                     font-size: 20px;
@@ -74,9 +75,16 @@
     
     }
     &.active{
+        
         background-color: $mainColor;
         color: white;
 
+        .left{
+            .logo{
+                transition: all 1s ease;
+                color: white;
+            }
+        }
         .hamburger{
             span{
                 &:first-child{

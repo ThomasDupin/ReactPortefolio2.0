@@ -9,7 +9,7 @@ export default function Intro() {
       showCursor: true,
       backDelay:1500,
       backSpeed:60,
-      strings:["Looking for an End-Of-Study professional contract","Passionate with video games developement", "Developer" ]
+      strings:["Looking for an End-Of-Study professional contract","Passionate about video games developement", "Developer" ]
 
     });
   }, []);
@@ -28,8 +28,10 @@ export default function Intro() {
               <h2>Hi There, I'm</h2>
               <h1>Thomas Dupin</h1>
               <h3>4th year IT Engineering student <span ref={textRef}></span></h3>
+               <a class="link" href="assets/ThomasDupin.pdf"> Download my resume</a> 
+
           </div>
-          <a href='#portfolio'>
+          <a href='#portfolio' className='down'>
               <img src='assets/down.png' alt=""/>  
           </a>
       </div> 

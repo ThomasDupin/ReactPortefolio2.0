@@ -90,9 +90,25 @@
                         opacity: 0;
                     }
                 }
+
+            }
+            .link{
+                text-decoration: none;
+                transition: all 0.2 ease-in;
+                font-size: 30px;
+                cursor: pointer;      
+                &:hover{
+                font-weight: bold;
+
+                }
+                @include mobile{
+                    font-size: 15px;
+                }
+
+
             }
         }
-        a{
+        .down{
             position: absolute;
             bottom: 10px;
             left: 40%;

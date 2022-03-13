@@ -60,7 +60,9 @@ const Portfolio = () => {
 
     const [buttonPopup, setButtonPopup] = useState(false);
     
+    let idItem;
 
+   
     return (
         <div className='portfolio' id='portfolio'>
             <h1>Portfolio</h1>
@@ -71,30 +73,33 @@ const Portfolio = () => {
                     active={selected ===item.id} 
                     setSelected= {setSelected}
                     id={item.id}
-                    />
-                    
+                    />    
                 ))}
             </ul>
             <div className="container">
                 {data.map((d) => (
                     
                     <div className="item">
-                    <img src={d.img} alt="" className='imgPort'></img>
-                    <h3 onClick={() => setButtonPopup(true)}>{d.title}</h3>
-                    <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-                      <h3>My popup+{d.title} </h3>  
-                      <p > Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quo doloremque ipsam sit dignissimos ullam necessitatibus inventore, unde deleniti suscipit autem repudiandae nesciunt, earum eos fugit iste voluptas molestias magni.</p>
-                    </Popup>
-                   
+                      <img src={d.img} alt="" className='imgPort'></img>
+                  
+                        <h3>{d.title}</h3>
+                        <p className='text'>{d.text}</p>
+                        <p className='tec'>Technologies used : {d.tec}</p>
+                        <p className='git'>Github link: {d.git}</p>
+                        <p>{d.drive}</p>
+                     
                     </div>
                   
                 ))}
-            
+
               </div>
-
-
+         
+             
+                
         </div>
     );
 };
 
 export default Portfolio;
+
+

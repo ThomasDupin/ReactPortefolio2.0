@@ -1,13 +1,12 @@
 import React from 'react';
 import Topbar from './components/topbar/Topbar';
 import Intro from './components/intro/Intro';
-import Portfolio from './components/portfolio/Portfolio';
 import Works from './components/works/Works';
 import Contact from './components/contact/Contact';
 import Menu from './components/menu/Menu';
 import  { useState} from "react"
 import Roadmap from './components/roadMap/Roadmap';
-
+import Portfolio from './components/portfolio/Portfolio';
 
 
 function App(){

@@ -1,72 +1,109 @@
+
+
 export const featuredPortfolio = [
     {
       id: 1,
-      title: "FEATSocial Media App",
+      title: "Lahorde GameJam 2022",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "assets/dataImg/infinity.png",
+      text: 
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+      tec:
+      "Unity 3D, C#, Github",
+      git:
+      "https://github.com/ThomasDupin/Infinity/tree/Feat/quest",
+      drive:
+      'Download the game : https://drive.google.com/file/d/11Xp1C6RAXYxd7iKHOR4chbcHKNZxclyU/view?usp=sharing'
     },
     {
       id: 2,
-      title: "FEATRampa UI Design",
+      title: "VR Whack A Mole",
+      text:
+      "WAMLorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
       img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+          "assets/dataImg/WAM.png",
+      git:
+          "https://github.com/ThomasDupin/GameJam2021",
+      tec:
+          "Unity 3D, C#, Github"
     },
     {
       id: 3,
-      title: "FEATE-commerce Web Design",
+      title: "Aalborg University GameJam 2021",
+      text:
+      "MAZEE ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+          "assets/dataImg/maze.png",
+
+      tec:
+          "Unity 3D, C#, Github"
     },
     {
       id: 4,
-      title: "FEATRelax Mobile App",
+      title: "C# Project Easy Save",
+      text:
+      "C#orem ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
       img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+          "assets/dataImg/Csharp.png",
+      tec:
+          " C#, .net",
+      git:
+      "https://github.com/ThomasDupin/ProjetCsharp"
     },
-    {
-      id: 5,
-      title: "FEATHero Web Design",
-      img:
-        "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "FEATBanking App",
-      img:
-        "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
-    },
+    
   ];
   
   export const SchoolPortfolio = [
     {
       id: 1,
-      title: "SCHOOL Social Media App",
-      img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+      title: "C# Project Easy Save",
+      img:
+      "assets/dataImg/Csharp.png",
+      text: 
+      "C#Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+      tec:
+      " C#, .net",
+      git:
+      "https://github.com/ThomasDupin/ProjetCsharp"
     },
     {
       id: 2,
-      title: "SCHOOLWeb Rampa UI Design",
-      img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
+      title: "Research and innovation",
+      img:
+        "assets/dataImg/oculus.png",
+      text: 
+      "INNOVATION ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+      tec:
+      "vr, Github",
+      git:
+      ""
+      
     },
     {
       id: 3,
-      title: "WSCHOOLeb E-commerce Design",
-      img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
+      title: "Boulderdash project",
+      img:
+        "assets/dataImg/java.png",
+      text: 
+      "JAVALorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+      tec:
+      "Java, Maven, Github",
+      git:
+      "https://github.com/ThomasDupin/2D-java-games"
+    
     },
     {
-      id: 4,
-      title: "SCHOOLWeb Relax App",
-      img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
-    },
-    {
-      id: 5,
-      title: "SCHOOLWeb Design",
-      img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "SCHOOLWeb Banking App",
-      img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
+      id:4,
+      title: "School Web project",
+      img:
+        "assets/dataImg/web.png",
+      text: 
+      "WEBLorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+      tec:
+      "Html, Css, php,javascript",
+      git:
+      "https://github.com/ThomasDupin/Projet-web"
+      
     },
   ];
   
@@ -89,100 +126,63 @@ export const featuredPortfolio = [
       img:
         "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
     },
-    {
-      id: 4,
-      title: "INTERNSGIPMobileMobile Relax App",
-      img:
-        "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 5,
-      title: "INTERNSGIPMobileMobile Hero Design",
-      img:
-        "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "INTERNSGIPMobileMobile Banking App",
-      img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-    },
+
   ];
   
   export const PersonnalPortfolio = [
     {
       id: 1,
-      title: "pERSONNALDesign Social Media App",
+      title: "Lahorde GameJam 2022",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "assets/dataImg/infinity.png",
+      text: 
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+      tec:
+      "Unity 3D, C#, Github",
+      git:
+      "https://github.com/ThomasDupin/Infinity/tree/Feat/quest",
+      drive:
+      'Download the game : https://drive.google.com/file/d/11Xp1C6RAXYxd7iKHOR4chbcHKNZxclyU/view?usp=sharing'
     },
     {
       id: 2,
-      title: "pERSONNALDesignDesign Rampa UI Design",
+      title: "Aalborg University GameJam 2021",
+      text:
+      "MAZEE ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+          "assets/dataImg/maze.png",
+      git:
+          "https://github.com/ThomasDupin/GameJam2021",
+      tec:
+          "Unity 3D, C#, Github"
     },
     {
       id: 3,
-      title: "pERSONNALDesignDesign E-commerce Web Design",
+      title: "Platformer 2D",
+      text:
+      "Platformer 2d ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+          "assets/dataImg/2d.png",
+      git:
+          "https://github.com/ThomasDupin/2D-platformer---Unity-/tree/thomas",
+      tec:
+          "Unity 2D, C#, Github"
     },
     {
       id: 4,
-      title: "pERSONNALDesignesign Relax Mobile App",
+      title: "This portfolio website",
+      text:
+      "Platformer 2d ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+          "assets/dataImg/react.jpg",
+      git:
+          "https://github.com/ThomasDupin/ReactPortefolio2.0/tree/main",
+      tec:
+          "React, html,css , js"
     },
-    {
-      id: 5,
-      title: "pERSONNALDesignDesign Keser Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 6,
-      title: "pERSONNALDesignDesign Banking App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
+
   ];
   
   export const OtherPortfolio = [
-    {
-      id: 1,
-      title: "OTHERContent Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 2,
-      title: "OTHERContent Rampa UI Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 3,
-      title: "OTHERContent E-commerce Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 4,
-      title: "OTHERContent Relax Mobile App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 5,
-      title: "OTHERContent Keser Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 6,
-      title: "OTHERContent Banking App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
+    
   ];

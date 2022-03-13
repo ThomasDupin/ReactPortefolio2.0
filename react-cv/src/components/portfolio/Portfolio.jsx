@@ -1,5 +1,7 @@
 import React from 'react';
 import PortfolioList from './PortfolioList';
+import Popup from '../popup/Popup';
+
 import { useEffect, useState } from "react";
 import {
     featuredPortfolio,
@@ -55,6 +57,8 @@ const Portfolio = () => {
               setData(featuredPortfolio);
           }
     },[selected])
+
+    const [buttonPopup, setButtonPopup] = useState(false);
     
 
     return (
@@ -68,19 +72,27 @@ const Portfolio = () => {
                     setSelected= {setSelected}
                     id={item.id}
                     />
+                    
                 ))}
             </ul>
             <div className="container">
                 {data.map((d) => (
-
+                    
                     <div className="item">
-                    <img src={d.img} alt=""></img>
-                    <h3>{d.title}</h3>
+                    <img src={d.img} alt="" className='imgPort'></img>
+                    <h3 onClick={() => setButtonPopup(true)}>{d.title}</h3>
+                    <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+                      <h3>My popup+{d.title} </h3>  
+                      <p > Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quo doloremque ipsam sit dignissimos ullam necessitatibus inventore, unde deleniti suscipit autem repudiandae nesciunt, earum eos fugit iste voluptas molestias magni.</p>
+                    </Popup>
+                   
                     </div>
-
+                  
                 ))}
+            
+              </div>
 
-            </div>
+
         </div>
     );
 };

@@ -5,7 +5,6 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: "./assets/mobile.png",
       title: "Aalborg Internship",
       dl:"./assets/RecAalborg.pdf",
       attr: "link",

@@ -7,7 +7,7 @@ export const featuredPortfolio = [
       img:
         "assets/dataImg/infinity.png",
       text: 
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+      "This game was realized in team for the game jam at the school: La Horde, during march of 2022. This game is using unity 3D, the subject of the game jam was the infinity. So, we incorporate a time loop during one scene. We won the best gameplay award.",
       tec:
       "Unity 3D, C#, Github",
       git:
@@ -15,32 +15,35 @@ export const featuredPortfolio = [
     },
     {
       id: 2,
-      title: "VR Whack A Mole",
+      title: "Whack A Mole",
       text:
-      "WAMLorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+      "This project was the subject of my fourth-year internship. A VR game to help stroke patient to gain back their mobility. I worked with Unity, and I did mainly data analysis on R. I worked with the research methodology.",
       img:
           "assets/dataImg/WAM.png",
       git:
-          "https://github.com/ThomasDupin/GameJam2021",
+          "https://github.com/ThomasDupin?tab=repositories",
       tec:
-          "Unity 3D, C#, Github"
+          "Unity, VR, R studio, Research"
     },
     {
       id: 3,
       title: "Aalborg University GameJam 2021",
       text:
-      "MAZEE ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+      " This game was realized with a friend of mine during a game Jam in Denmark in November 2021. This game is using unity 3D and 2D. I have worked on the 3D part. the subject of the game jam was underworld and overworld. So, the first part of the gameplay is in 2D and if you die you switch to maze in 3D.",
       img:
           "assets/dataImg/maze.png",
 
       tec:
-          "Unity 3D, C#, Github"
+          "Unity 3D, C#, Github",
+
+      git:
+          "https://github.com/ThomasDupin/GameJam2021",
     },
     {
       id: 4,
       title: "C# Project Easy Save",
       text:
-      "C#orem ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+      "School project in C#. We had to create a software name EasySave. The purpose of this software is to save some file on our computer. We could save directory using differential or incremental save. Switch between language and more globally create a windows software.",
       img:
           "assets/dataImg/Csharp.png",
       tec:
@@ -55,12 +58,12 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "C# Project Easy Save",
+      text:
+      "School project in C#. We had to create a software name EasySave. The purpose of this software is to save some file on our computer. We could save directory using differential or incremental save. Switch between language and more globally create a windows software.",
       img:
-      "assets/dataImg/Csharp.png",
-      text: 
-      "C#Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+          "assets/dataImg/Csharp.png",
       tec:
-      " C#, .net",
+          " C#, .net",
       git:
       "https://github.com/ThomasDupin/ProjetCsharp"
     },
@@ -70,7 +73,7 @@ export const featuredPortfolio = [
       img:
         "assets/dataImg/oculus.png",
       text: 
-      "INNOVATION ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+      "School project to discover Research and Innovation. Our idea for this project is to create a professional work environment in VR. We are discussing and creating the basis of the project and we are discovering the research methodology. We will jump in the technical part in April, May.",
       tec:
       "vr, Github",
       git:
@@ -83,7 +86,7 @@ export const featuredPortfolio = [
       img:
         "assets/dataImg/java.png",
       text: 
-      "JAVALorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+      "This is also a school project, during this project we used Java to create a simple 2D boulder dash Game. The project was linked to a database. It was realised during our first year at the CESI.",
       tec:
       "Java, Maven, Github",
       git:
@@ -96,7 +99,7 @@ export const featuredPortfolio = [
       img:
         "assets/dataImg/web.png",
       text: 
-      "WEBLorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+      "Web project realised for the Cesi. The subject was about the BDE Website who needed an update. We had to create a website with store using, PhP, JavaScript, Html, Css.",
       tec:
       "Html, Css, php,javascript",
       git:
@@ -108,23 +111,36 @@ export const featuredPortfolio = [
   export const InternshipPortfolio = [
     {
       id: 1,
-      title: "INTERNSGIPMobile Social Media App",
+      title: "Whack A Mole",
+      text:
+      "This project was the subject of my fourth-year internship. A VR game to help stroke patient to gain back their mobility. I worked with Unity, and I did mainly data analysis on R. I worked with the research methodology.",
       img:
-        "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
+          "assets/dataImg/WAM.png",
+      git:
+          "https://github.com/ThomasDupin?tab=repositories",
+      tec:
+          "Unity, VR, R studio, Research"
     },
     {
       id: 2,
-      title: "INTERNSGIPMobileMobile Rampa UI Design",
+      title: "Website Saisie des temps des Prestataires",
+      text:
+      "This project was the subject of my third-year internship. A Website using Symphony for Bordeaux Métropole Energies. The website is using Symphony, PhP, Javascript. ",
       img:
-        "https://cdn.dribbble.com/users/5920881/screenshots/15463142/media/b5a460223798bd85d835710806e2f3dd.png?compress=1&resize=1200x900",
+        "assets/dataImg/bme.jpg",
+      tec:
+        "Symphony, Php, JavaScript"
     },
     {
       id: 3,
-      title: "INTERNSGIPMobileMobile E-commerce Design",
+      title: "Gertrude new tools",
+      text:
+      "This project was the subject of my second-year internship. A Website using VueJs for Gertrude. The website is using VueJs, Javascript. Interactive map and visualisation.",
       img:
-        "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
+        "assets/dataImg/gertrude.jpg",
+      tec:
+        "Symphony, Php, JavaScript"
     },
-
   ];
   
   export const PersonnalPortfolio = [
@@ -134,30 +150,31 @@ export const featuredPortfolio = [
       img:
         "assets/dataImg/infinity.png",
       text: 
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+      "This game was realized in team for the game jam at the school: La Horde, during march of 2022. This game is using unity 3D, the subject of the game jam was the infinity. So, we incorporate a time loop during one scene. We won the best gameplay award.",
       tec:
       "Unity 3D, C#, Github",
       git:
-      "https://github.com/ThomasDupin/Infinity/tree/Feat/quest",
-    
+      "https://github.com/ThomasDupin/Infinity/tree/Feat/quest"
     },
     {
-      id: 2,
+      id: 3,
       title: "Aalborg University GameJam 2021",
       text:
-      "MAZEE ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+      " This game was realized with a friend of mine during a game Jam in Denmark in November 2021. This game is using unity 3D and 2D. I have worked on the 3D part. the subject of the game jam was underworld and overworld. So, the first part of the gameplay is in 2D and if you die you switch to maze in 3D.",
       img:
           "assets/dataImg/maze.png",
+
+      tec:
+          "Unity 3D, C#, Github",
+
       git:
           "https://github.com/ThomasDupin/GameJam2021",
-      tec:
-          "Unity 3D, C#, Github"
     },
     {
       id: 3,
       title: "Platformer 2D",
       text:
-      "Platformer 2d ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+      "This is a little game that I made to learn unity and 2D game. It’s a simple 2D platformer with simple interaction like health bar, enemy.",
       img:
           "assets/dataImg/2d.png",
       git:
@@ -169,7 +186,7 @@ export const featuredPortfolio = [
       id: 4,
       title: "This portfolio website",
       text:
-      "Platformer 2d ipsum dolor sit amet consectetur adipisicing elit. Officia eius numquam porro alias eligendi sunt quaerat fuga, rem ipsam aperiam assumenda ex odio accusantium iusto odit tenetur, facere praesentium magnam!",
+      "This website is a personal project, I made it because I can explain more in details all my projects than in my resume / cover letters. I’m using react to develop this website.",
       img:
           "assets/dataImg/react.jpg",
       git:

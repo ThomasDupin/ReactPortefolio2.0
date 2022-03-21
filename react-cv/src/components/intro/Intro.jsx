@@ -31,7 +31,7 @@ export default function Intro() {
                <a class="link" href="assets/ThomasDupin.pdf"> Download my resume</a> 
 
           </div>
-          <a href='#portfolio' className='down'>
+          <a href='#roadmap' className='down'>
               <img src='assets/down.png' alt=""/>  
           </a>
       </div> 

@@ -70,6 +70,7 @@
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
+                        overflow: hidden;
                                         
          
 
@@ -81,6 +82,7 @@
                             display: flex;
                             align-items: center;
                             justify-content: center;
+                            overflow: hidden;
                             @include mobile{
                                 width: 20px;
                                 height: 20px; 
@@ -99,6 +101,7 @@
                             @include mobile{
                                 font-size: 13px;
                             }
+                            overflow: hidden;
                         }
                         p{
                             font-size: 13px;
@@ -106,16 +109,20 @@
                             @include mobile{
                                 display: none;
                             }
+                            margin-bottom: 5px;
                         }
 
                         
                         .link{
+                            overflow: hidden;
                             .link{
                             
                                 text-decoration: none;
                                 color: $mainColor;
                                 transition: all 0.2 ease-in;
                                 cursor: pointer;
+                                overflow: hidden;
+                                text-decoration: underline;
                                 @include mobile{
                                     display: none;
                                 }
@@ -129,26 +136,26 @@
                                 display: none;
                             }
                         }
-                        .title{
-                            font-size: 12px;
-                            font-weight: 600;
-                            text-decoration: underline;
-                            cursor: pointer;
+                        h5{
+                            overflow: hidden;
+                            margin-bottom: 5px;
                         }
-                        
+                       
                     }
                 }
                 .right{
-                    flex: 8;
+                    flex: 2;
                     height: 100%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     overflow: hidden;
+                    right: 0;
 
                     img{
-                        width: 400px;
+                        width: 200px;
                         transform: rotate(-10deg);
+                        
                     }
                 }
 

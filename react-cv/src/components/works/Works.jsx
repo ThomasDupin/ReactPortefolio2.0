@@ -6,33 +6,36 @@ export default function Works() {
     {
       id: "1",
       title: "Aalborg Internship",
+      icon: "./assets/icon.png",
       dl:"./assets/RecAalborg.pdf",
       attr: "link",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        "	Internship inside a VR laboratory at Aalborg University, The project was a VR game 	used to help strokes patient gain back their mobility. I was in charge of the Eye 	tracking software. I did a lot of data analysis in R. The Software I using Unity. I was 	able to have a first look at the research metholody and I did some Project 	Management",
       img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        "./assets/aalborg.jpg",
+        git:
+        "https://github.com/ThomasDupin?tab=repositories"
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
+      icon: "./assets/icon.png",
       title: "BME Internship",
       dl:"./assets/RecBME.pdf",
       attr: "link",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "	Trainee in BME, within the IT services department, in a team of 5 people. 	Development of a internal tools using the Agile methodology for the company, 	The 	software will allow the company to record the work time of the IT service 	provider. The software is in Php with the Symfony 4 framework, with 3rd party  	external tools like, Mantis, Jenkins, SVN .",
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+        "assets/dataImg/bme.jpg",
     },
     {
       id: "3",
-      icon: "./assets/writing.png",
+      icon: "./assets/icon.png",
       title: "Gertrude Internship",
       attr: "hidden",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "	Trainee at Gertrude SAEM inside the development team. Development of a supervision tools inside a new web service for the new 	Gertrude customers. I used Javascript with the framework Vue js, also I used 	 	virtual computer with Docker and GitHub.",
       img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+        "assets/dataImg/gertrude.jpg",
     },
   ];
 
@@ -60,13 +63,14 @@ export default function Works() {
                     <p>
                      {d.desc}
                     </p>
-                    <span className='title'>Projects</span>
+                    <h5>Github link: </h5>
+                    <span className="git">{d.git}</span>
                     <span className='link'> <a href={d.dl} target="blank" className={d.attr} > Download the recommandation letters</a></span>
                   </div>
                 </div>
                 <div className="right">  
                 <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
+                  src={d.img}
                   alt=""
                 />  
                 </div>

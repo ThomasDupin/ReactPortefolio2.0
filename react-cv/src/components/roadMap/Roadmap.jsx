@@ -12,8 +12,8 @@ import {
 import "react-vertical-timeline-component/style.min.css"
 
 export default function Roadmap() {
-  let workIconStyles = { background: "#06D6A0" };
-  let schoolIconStyles = { background: "#f9c74f" };
+  let workIconStyles = { background: "#06D6A0", margin: "4px 0px -0px -30px" };
+  let schoolIconStyles = { background: "#f9c74f",margin: "4px 0px -0px -30px" };
   return (
     <div className='roadmap' id="roadmap">
     <h1 className="title">Timeline</h1>
@@ -30,7 +30,7 @@ export default function Roadmap() {
               key={element.key}
               date={element.date}
               dateClassName="date"
-              iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
+              iconStyle={ isWorkIcon ? workIconStyles : schoolIconStyles }
               icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
             >
               <h3 className="vertical-timeline-element-title">

@@ -12,8 +12,8 @@ import {
 import "react-vertical-timeline-component/style.min.css"
 
 export default function Roadmap() {
-  let workIconStyles = { background: "#06D6A0", margin: "4px 0px -0px -30px" };
-  let schoolIconStyles = { background: "#f9c74f",margin: "4px 0px -0px -30px" };
+  let workIconStyles = { background: "#06D6A0", margin: "10px 0px -0px -30px"};
+  let schoolIconStyles = { background: "#f9c74f",margin: "10px 0px -0px -30px" };
   return (
     <div className='roadmap' id="roadmap">
     <h1 className="title">Timeline</h1>

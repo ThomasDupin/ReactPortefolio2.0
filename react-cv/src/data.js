@@ -84,7 +84,7 @@ export const featuredPortfolio = [
       id: 3,
       title: "Boulderdash project",
       img:
-        "assets/dataImg/java.png",
+        "assets/dataImg/Java.png",
       text: 
       "This is also a school project, during this project we used Java to create a simple 2D boulder dash Game. The project was linked to a database. It was realised during our first year at the CESI.",
       tec:

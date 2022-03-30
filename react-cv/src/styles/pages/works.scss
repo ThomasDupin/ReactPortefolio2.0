@@ -140,7 +140,9 @@
                         }
                         .git{
                             overflow: hidden;
-
+                            @include mobile{
+                                display: none;
+                            }
                         }
                        
                     }

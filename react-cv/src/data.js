@@ -21,7 +21,7 @@ export const featuredPortfolio = [
       img:
           "assets/dataImg/WAM.png",
       git:
-          "https://github.com/ThomasDupin?tab=repositories",
+          "https://github.com/ThomasDupin/WhackAMoleDataJune21",
       tec:
           "Unity, VR, R studio, Research"
     },
@@ -117,7 +117,7 @@ export const featuredPortfolio = [
       img:
           "assets/dataImg/WAM.png",
       git:
-          "https://github.com/ThomasDupin?tab=repositories",
+          "https://github.com/ThomasDupin/WhackAMoleDataJune21",
       tec:
           "Unity, VR, R studio, Research"
     },

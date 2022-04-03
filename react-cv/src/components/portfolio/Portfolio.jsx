@@ -85,7 +85,7 @@ const Portfolio = () => {
                         <h3>{d.title}</h3>
                         <p className='text'>{d.text}</p>
                         <p className='tec'>Technologies used : {d.tec}</p>
-                        <p className='git'>Github link: {d.git}</p>
+                        <a className='git' href={d.git}> {d.git}</a> 
                         <p>{d.drive}</p>
                      
                     </div>

@@ -120,6 +120,8 @@
                 padding: 20px;
                 position: absolute;
                 transition: all .5s ease;
+                text-decoration: none;
+                color: white;
                 @include mobile{
                     display: none;
                 }
